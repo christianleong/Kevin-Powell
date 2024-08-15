@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Example 1 - why not to set px for width, and use percentage instead */
+body {
+    margin: 0;
+}
+
+.parent {
+    background-color: #23424A;
+    padding: 50px;
+
+    /* By default, the div has a width of 100% of the parent (ie. body/viewport) */
+    /* width: 900px; */ 
+
+    /* To keep things responsive, it's better to use % instead of setting px */
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child {
+
+    background-color: #38CFD9;
+
+    /* This causes overflowing issue */
+    /* width: 750px; */
+
+    width: 50%; 
+    /* this can also cause issue where text overflows */
+
+    height: 250px;
+}
+

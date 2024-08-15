@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background: #23424A;
+    color: white;
+
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 5em; /* 16px x 5 = 80px */
+
+    /* height: 300px; */
+    /* it's us that ruin the responsiveness of the web by setting height or restrictions */
+}
