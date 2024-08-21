@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    background: #23424A;
+    height: 80vh;
+    padding: 6rem 5rem;
+}
+
+.child {
+    width: 50%;
+    max-width: 700px;
+}
+
+.child h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 1rem;
+}
+
+.child p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 0.85;
+    margin-bottom: 1rem;
+    line-height: 31.54px;
+}
+
+.child button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #38CFD9;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    border: inherit;
+    margin: 1rem 0;
+}
+
+.child h1,
+.child p {
+    color: white;
+}
+
+.child p,
+.child button {
+    font-size: 21px;
+}
